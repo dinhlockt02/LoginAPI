@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const { mongoConnectionString } = require('./config/mongo');
+const { mongoConnectionString } = require('./config/config');
 
 const app = express();
 
